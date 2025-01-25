@@ -1,1 +1,153 @@
-<h1> Hello World! </h1>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Import Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- Custom Styles -->
+    <style>
+
+      body {
+        background: linear-gradient(135deg, #5f3f07ec 30%, #c4a46d 20%);
+      }
+
+      
+      .menu-title {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 60px;
+        margin-top: 60px;
+      }
+      .menu-subtitle {
+        font-family: 'Brush Script MT', cursive;
+          font-size: 40px;
+        font-style: italic;
+        color: #d55257;
+        font-weight: bold;
+        margin-top: 80px;
+        text-align: center;
+      }
+      .menu-tagline {
+        font-family: Arial, sans-serif;
+        font-size: xx-large;
+        font-weight: bolder;
+        margin-top: 15px;
+        color: #041d36;
+        margin-bottom: 100px;
+        text-align: center;
+      }
+      .menu-item {
+        margin-bottom: 30px; 
+      }
+      .menu-image {
+        width: 120px;
+        height: 120px;
+        object-fit: cover; 
+        border-radius: 10px; /* Adds rounded corners */
+        display: block;
+      }
+      .menu-item-title {
+        font-weight: bold;
+        font-family: 'Lobster', cursive;
+
+      }
+      .menu-item-desc {
+        color: #1e74c0;
+        margin-bottom: 15px;
+      }
+      .menu-item-price {
+        font-weight: bold;
+        font-size: 1.1rem; 
+      }
+      .menu-item-btn {
+        background-color: hsl(295, 23%, 50%);
+        color: #f9f4f4;
+      }
+      .menu-item-btn:hover {
+        background-color: #69727c;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container py-4">
+      <div class="row menu-title align-items-center">
+        <h1 class="menu-title text-center mb-4">&#x1F33FMoon Cafe</h1>
+        <h2 class="menu-subtitle">Delicious, From-Scratch Recipes Close at Hand</h2>
+        <h3 class="menu-tagline">The Fresh Choice of UT!</h3>
+      </div>
+
+      <!-- Menu Items -->
+      <div class="row menu-item align-items-center">
+        <div class="col-2 text-center">
+          <img src="https://www.olivetomato.com/wp-content/uploads/2021/08/SAM_8242-1.jpeg" 
+               alt="Spinach Feta Pastry" 
+               class="menu-image">
+        </div>
+        <div class="col-10" style="padding-left: 5rem;">
+          <h5 class="menu-item-title">Spinach Feta Pastry</h5>
+          <p class="menu-item-desc">Flaky pastry filled with a savory mix of fresh spinach, creamy feta, and aromatic herbs, baked to golden perfection.</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <span class="menu-item-price">$8.25</span>
+            <button class="btn menu-item-btn">Add</button>
+          </div>
+        </div>
+      </div>
+
+        <!--Rice Bowl-->
+      <div class="row menu-item align-items-center">
+        <div class="col-2 text-center">
+          <img src="https://palestineinadish.com/wp-content/uploads/2023/07/Shawarma-bowl-photo3-scaled.jpg" 
+               alt="Chicken Shawarma Rice Bowl" 
+               class="menu-image">
+        </div>
+        <div class="col-10" style="padding-left: 5rem;">
+          <h5 class="menu-item-title">Chicken Shawarma Rice Bowl</h5>
+          <p class="menu-item-desc">Tender, spiced chicken served over a bed of fluffy rice, topped with crispy vegetables, creamy garlic sauce, and a drizzle of tahini.</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <span class="menu-item-price">$13.50</span>
+            <button class="btn menu-item-btn">Add</button>
+          </div>
+        </div>
+      </div>
+
+            <!--Wrap-->
+      <div class="row menu-item align-items-center">
+        <div class="col-2 text-center">
+          <img src="https://ordinaryvegan.net/wp-content/uploads/2019/04/Vegan-Baked-Falafel-resize.jpg" 
+               alt="Falafel Wrap" 
+               class="menu-image">
+        </div>
+        <div class="col-10" style="padding-left: 5rem;">
+          <h5 class="menu-item-title">Falafel Wrap</h5>
+          <p class="menu-item-desc">Crispy falafel, tahini sauce, fresh vegetables, and pickles wrapped in warm pita bread.</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <span class="menu-item-price">$11.50</span>
+            <button class="btn menu-item-btn">Add</button>
+          </div>
+        </div>
+      </div>
+      <!--Baklava-->
+      <div class="row menu-item align-items-center">
+        <div class="col-2 text-center">
+          <img src="https://cleobuttera.com/wp-content/uploads/2018/03/lifted-baklava-720x720.jpg" 
+               alt="Baklava" 
+               class="menu-image">
+        </div>
+        <div class="col-10" style="padding-left: 5rem;">
+          <h5 class="menu-item-title">Baklava</h5>
+          <p class="menu-item-desc">Layers of phyllo pastry filled with chopped nuts and sweetened with honey syrup.</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <span class="menu-item-price">$4.25</span>
+            <button class="btn menu-item-btn">Add</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Import Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-tE2tHftLYHSjv8eibVPv6WRFz8xNYQ5DQ2Lo9zT1cqNYQ5DQ2Lo9"></script>
+  </body>
+</html>
